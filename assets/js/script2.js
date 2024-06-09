@@ -9,16 +9,19 @@ function generateTaskId() {
 
 // Function to create a task card
 function createTaskCard(task) {
+    // Store the task's due date in a variable using the Day.js library
     let dueDate = dayjs(task.dueDate);
     let today = dayjs();
     let cardClass = "";
 
+    // If the task due date is before today's date, it is overdue, so set it to "bg-danger" (red)
     if (dueDate.isBefore(today, 'day')) {
         cardClass = "bg-danger";
+    // If the task due date is within the next two days, set cardClass to "bg-warning" (yellow)
     } else if (dueDate.diff(today, 'day') <= 2) {
         cardClass = "bg-warning";
     }
-
+    // Return a string containing the HTML for a task card.
     return `
         <div class="card task-card mb-3 ${cardClass}" data-id="${task.id}">
             <div class="card-body">
