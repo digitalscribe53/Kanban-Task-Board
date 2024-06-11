@@ -42,6 +42,7 @@ function renderTaskList() {
     });
     $(".task-card").draggable({
         revert: "invalid",
+        opacity: 0.5,
         start: function () {
             $(this).addClass("dragging");
         },
