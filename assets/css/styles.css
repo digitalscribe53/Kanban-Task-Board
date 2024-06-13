@@ -5,13 +5,22 @@ body {
   
   .swim-lanes {
     min-height: 60vh;
+    
   }
   
   .task-card {
     margin: 0 auto;
+    z-index: 1000;
   }
   
   .task-card:hover {
     cursor: grab;
   }
+  
+  @media (min-width: 992px) {
+      .task-card {
+        width: 70%;
+      }
+  }
+  
   
