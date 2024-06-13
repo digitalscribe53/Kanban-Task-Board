@@ -10,4 +10,4 @@ The application is intended to be run in a browser.
 
 
 ## Screenshot of Web Page 
-[Image](./assets/Images/task-board-screenshot.JPG)
+![Image](./assets/Images/task-board-screenshot.JPG)
