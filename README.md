@@ -5,3 +5,9 @@ A simple, color-coded task board for managing to-do tasks within a team. This pr
 
 ## Usage 
 The application is intended to be run in a browser. 
+
+## Live Application
+
+
+## Screenshot of Web Page 
+[Image](./assets/Images/task-board-screenshot.JPG)
