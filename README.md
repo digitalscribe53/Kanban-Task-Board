@@ -7,7 +7,7 @@ A simple, color-coded task board for managing to-do tasks within a team. This pr
 The application is intended to be run in a browser. 
 
 ## Live Application
-
+[Link to Live Page](https://digitalscribe53.github.io/Kanban-Task-Board/)
 
 ## Screenshot of Web Page 
 ![Image](./assets/Images/task-board-screenshot.JPG)
