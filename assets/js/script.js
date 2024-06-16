@@ -102,4 +102,10 @@ $(document).ready(function () {
         accept: ".task-card",
         drop: handleDrop
     });
+
+    // Clear the modal input fields when the modal is shown
+$('#formModal').on('show.bs.modal', function () {
+    $('#add-task-form')[0].reset();
+});
+
 });
